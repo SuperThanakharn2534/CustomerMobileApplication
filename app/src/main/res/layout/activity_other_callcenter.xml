@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView161"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView162"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/value4"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/textView163"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_Height"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="ตกลง"
+            android:textAlignment="center"
+            android:textColor="@drawable/background_White"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView164"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_Height"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="ยกเลิก"
+            android:textAlignment="center"
+            android:textColor="@drawable/background_White"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</LinearLayout>

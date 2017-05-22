@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_White"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.08"
+        android:background="@drawable/background_White"
+        android:orientation="vertical"
+        tools:ignore="InefficientWeight">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ส่งรหัสผ่านไปที่หมายเลข"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08-6666-3723 เพื่อเข้าสู่ระบบ"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_White"
+            android:text="OK"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_bright"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>

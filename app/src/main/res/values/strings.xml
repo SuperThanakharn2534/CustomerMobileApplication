@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CustomerMobileApplication</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="CustomerMenu">
+        <item> - ข้อมูลส่วนตัว</item>
+        <item> - ข้อมูลกรมธรรม์</item>
+        <item> - ข้อมูลผลิตภัณฑ์/โปรโมชั่น</item>
+        <item> - บริการเคลมสุขภาพ</item>
+        <item> - ชำระเบี้ย</item>
+        <item> - ติดต่อสอบถามข้อมูลเพิ่มเติม</item>
+        <item> - ข้อเสนอแนะ/ร้องเรียน</item>
+        <item> - Log Out </item>
+
+    </string-array>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="valu">ระบุการเจ็บป่วย/บาดเจ็บที่ได้รับ(ในกรณีบาดเจ็บให้บรรยายการเกิดอุบัติเหตุโดยระเอียด)</string>
+    <string name="value2">โดยหนังสือฉบับนี้
+ข้าพเจ้า นายณเดช รักดี ผู้เอาประกันภัยตามหมายเลขอ้างอิงที่ 1000099 ขอมอบอำนาจให้ บริษัท สไมล์ทีพีเอเป็นตัวแทนของข้าพเจ้า</string>
+    <string name="value3">โอนเงินผ่านระบบธนาคารกรุงไทยออนไลน์(E-Banking)</string>
+    <string name="value4">คุณต้องการโทรไปยังหมายเลข 0877907999 ใช่หรือไม่</string>
+    <string name="title_activity_other_map">Map</string>
+
+    <string name="menu1">ข้อมูลส่วนตัว</string>
+    <string name="menu2">ข้อมูลกรมธรรม์</string>
+    <string name="Menu3">ข้อมูลผลิตภัณฑ์/โปรโมชั่น</string>
+    <string name="menu4">บริการเคลมสุขภาพ</string>
+    <string name="menu5">ชำระเบี้ย</string>
+    <string name="menu6">ติดต่อสอบถามข้อมูลเพิ่มเติม</string>
+    <string name="menu7">ข้อเสนอแนะ/ร้องเรียน</string>
+    <string name="menu8">Log Out</string>
+
+
+
+
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout">
+
+    <ListView
+        android:id="@+id/drawerList"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#ff0099cc"
+        android:divider="@null"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_White"
+        android:orientation="vertical"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/background_White"
+            app:srcCompat="@drawable/img_siamsmile"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ระบุหมายเลขบัตรประชาชน"
+                android:inputType="number"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:hint="เบอร์โทรศัพท์"
+                android:inputType="phone"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.34"
+                android:background="@drawable/background_White"
+                android:text="กดเพื่อขอรับรหัสผ่าน"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,InefficientWeight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="รหัสผ่าน"
+                android:inputType="textPassword"
+                android:textAllCaps="false"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="InefficientWeight,NestedWeights" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:text="Register"
+                android:textColor="@drawable/background_White"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,InefficientWeight,NestedWeights" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center"
+            android:text="ติดต่อ  Contract Center 08-7790-7999"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
